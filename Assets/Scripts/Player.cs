@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
         level = 0;
         health = 10;
         damage = 1;
-        speedattack = 2;
+        speedattack = 2f;
     }
 
 
