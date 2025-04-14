@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     int damage;// va con el speedattack xd
     float speedattack;//pa cuando tenga raycast3d xdxdxdxd
     string type;// tal vez un scriptable con las tres armas
+    public int spellnumber;
 
     private void Start()
     {
@@ -19,9 +20,8 @@ public class Player : MonoBehaviour
         health = 10;
         damage = 1;
         speedattack = 2f;
+        spellnumber = 0;
     }
-
-
     public void Die()
     {
         if(health <= 0)
